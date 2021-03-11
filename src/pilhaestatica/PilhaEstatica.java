@@ -68,7 +68,14 @@ class PilhaEstatica {
 
         do {
             try {
-                System.out.print("\n\n Escolha: 1-> empilha 2->desempilha 3->topo 4-> tamanho 9-> sair:");
+                System.out.print("\n "
+                        + "Escolha: \n"
+                        + "1-> empilha \n"
+                        + "2->desempilha \n"
+                        + "3->topo \n"
+                        + "4-> tamanho \n"
+                        + "9-> sair:"
+                        + "\n");
                 opcao = input.nextInt();
 
                 switch (opcao) {
